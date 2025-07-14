@@ -32,7 +32,7 @@ app.post("/", (req, res) => {
     ],
   };
   mailchimp.setConfig({
-    apiKey: "647fddeb9ff47f756421e37e7a0385fd-us1",
+    apiKey: "",
     server: "us1",
   });
 
@@ -62,5 +62,4 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running on port 3000");
 });
 
-//api 647fddeb9ff47f756421e37e7a0385fd-us1
 //list fe7b771d25
